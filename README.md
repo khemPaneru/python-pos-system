@@ -1,6 +1,6 @@
 🛒 POS System for Small Cafes
 
-🎥 Video Demo: Watch here
+🎥🎥 [Watch Video Demo](https://youtu.be/aNXoqI4ot1k)
 
 📝 Description
 
