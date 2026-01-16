@@ -1,6 +1,6 @@
 🛒 POS System for Small Cafes
 
-🎥🎥 [Watch Video Demo](https://youtu.be/aNXoqI4ot1k)
+🎥 [Watch Video Demo](https://youtu.be/aNXoqI4ot1k)
 
 📝 Description
 
@@ -20,39 +20,39 @@ The system checks stock availability and raises clear errors for invalid inputs 
 
 ✨ Features
 
-🗂 Load product inventory from data/inventory.csv
+- 🗂 Load product inventory from data/inventory.csv
 
-📋 Display a formatted list of items for sale
+- 📋 Display a formatted list of items for sale
 
-💰 Handle item purchase logic and stock updates
+- 💰 Handle item purchase logic and stock updates
 
-⚠️ Raise errors for invalid purchases (e.g., out of stock or invalid ID)
+- ⚠️ Raise errors for invalid purchases (e.g., out of stock or invalid ID)
 
 💾 Save updated inventory back to the CSV file
-
-🧪 Unit tests for core functionalities
+- 
+- 🧪 Unit tests for core functionalities
 
 📁 File Breakdown
 
-project.py – Main program logic:
+- project.py – Main program logic:
 
-main() – Starts the POS program
+- main() – Starts the POS program
 
-load_inventory() – Loads inventory from CSV
+- load_inventory() – Loads inventory from CSV
 
-save_inventory() – Writes updated inventory
+- save_inventory() – Writes updated inventory
 
-purchase_item() – Handles purchase logic
+- purchase_item() – Handles purchase logic
 
-test_project.py – Unit tests for:
+- test_project.py – Unit tests for:
 
-Successful purchase
+- Successful purchase
 
-Purchase with insufficient stock
+- Purchase with insufficient stock
 
-Purchase with invalid item ID
+- Purchase with invalid item ID
 
-data/inventory.csv – Inventory data format:
+- data/inventory.csv – Inventory data format:
 
 id,name,price,stock
 1,Coffee,3.5,12
