@@ -49,5 +49,4 @@ id,name,price,stock
 
 ---
 
-## Acknowledgments
-I used ChatGPT for guidance but wrote and understand all the code myself which I have already explained in video
+
